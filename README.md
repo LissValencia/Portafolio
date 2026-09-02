@@ -1,6 +1,34 @@
-# Portafolio
-QA Engineer certificada, con experiencia en pruebas de aplicaciones web, APIs y aplicaciones móviles. Especializado en el diseño, planificación y ejecución de pruebas, validación de requerimientos, identificación y documentación de bugs, así como en el análisis de resultados para contribuir a la calidad y estabilidad del software.
+Desafío
 
-Cuento con conocimientos en **pruebas funcionales, pruebas de integración, pruebas de API, pruebas de aplicaciones móviles y fundamentos de automatización de pruebas**. Tengo experiencia trabajando con herramientas como **Postman** para validación de APIs, **Jira** para gestión y seguimiento de incidencias, **Figma** para análisis de interfaces y validación de requerimientos, **GitHub** para control y gestión de proyectos, y **Cygwin** para trabajar con entornos y herramientas de línea de comandos.
+Urban.Lunch es una aplicación móvil diseñada para realizar pedidos de comida a domicilio. El usuario puede seleccionar platos principales, entradas y bebidas, elegir el restaurante donde están disponibles y completar el pedido indicando el lugar de entrega.
 
-Mi enfoque se caracteriza por el **pensamiento analítico, atención al detalle, organización y orientación a la detección temprana de errores**, aplicando diferentes técnicas y escenarios de prueba para identificar riesgos y asegurar una experiencia de usuario confiable. Busco aportar una visión de calidad durante todo el ciclo de desarrollo, combinando pruebas manuales con conocimientos en automatización para optimizar los procesos de validación del software.
+El reto consistió en validar que el flujo completo del pedido funcionara correctamente, desde la selección del punto de recogida y los productos hasta la confirmación, recogida y seguimiento del pedido. También era necesario comprobar cómo respondía la aplicación ante escenarios inesperados y datos que no cumplían las condiciones esperadas.
+
+Qué hice
+
+Analicé los principales flujos de la aplicación y estructuré una lista de comprobación de 57 ítems de prueba, organizada por las funcionalidades más relevantes:
+
+Selección del punto de recogida.
+Lista de platillos.
+Selección de entradas y bebidas.
+Confirmación del pedido.
+Seguimiento del pedido.
+Recogida del pedido.
+Pedido enviado.
+Validaciones y consideraciones adicionales.
+
+Ejecuté pruebas positivas y negativas para comprobar tanto el comportamiento esperado como la respuesta de la aplicación ante diferentes condiciones y escenarios de error.
+
+Durante la ejecución, documenté las incidencias encontradas en Jira, incluyendo información necesaria para su reproducción y evidencia del comportamiento observado. En total, reporté 7 bugs, concentrando una parte importante de los hallazgos en las funcionalidades de Confirmación de pedido y Pedido enviado.
+
+Resultado
+
+Las pruebas permitieron identificar y documentar 7 defectos funcionales, contribuyendo principalmente a mejorar la estabilidad de los flujos de Confirmación de pedido y Pedido enviado.
+
+Este proyecto fortaleció mi capacidad para estructurar pruebas sobre aplicaciones móviles, diseñar escenarios positivos y negativos, detectar inconsistencias durante la ejecución y comunicar bugs de manera clara y reproducible mediante Jira.
+
+Evidencia
+
+Herramientas: Jira · Aplicación móvil Urban.Lunch · Checklist de pruebas
+
+Cobertura: 57 ítems de prueba · Pruebas positivas y negativas · 7 bugs reportados
