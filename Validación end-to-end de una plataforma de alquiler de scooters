@@ -1,0 +1,27 @@
+Desafío
+
+Urban Scooter es una plataforma de alquiler de scooters en la que diferentes componentes deben funcionar de manera coordinada: la interfaz del usuario, la aplicación del repartidor, los servicios backend y la base de datos.
+
+El reto fue validar que el flujo completo funcionara correctamente, desde las acciones realizadas en la plataforma hasta la comunicación con los servicios backend y la persistencia de los datos, contemplando tanto escenarios positivos como negativos.
+
+Proceso
+
+Comencé validando el flujo de alquiler y seguimiento de pedidos desde la perspectiva del usuario. Diseñé y ejecuté una checklist de aproximadamente 112 aspectos en Chrome y Opera, complementándola con 59 validaciones de datos y 15 casos de prueba para cubrir diferentes escenarios funcionales.
+
+Durante la ejecución, identifiqué y documenté 74 bugs, utilizando evidencia y pasos de reproducción para facilitar su análisis y seguimiento.
+
+Posteriormente, amplié las pruebas hacia la aplicación del repartidor, validando funcionalidades como el ingreso, creación de usuarios, conexión con el servidor y aceptación de pedidos. Utilicé Postman para comprobar la comunicación entre la aplicación y los servicios backend, revisando solicitudes, respuestas y estructuras JSON.
+
+Finalmente, realicé pruebas sobre los servicios backend y la base de datos. Validé endpoints relacionados con la creación de repartidores, aceptación y cancelación de pedidos y búsquedas mediante número de seguimiento. También comprobé códigos HTTP, respuestas JSON y la consistencia de los datos entre la aplicación, la API y la base de datos.
+
+Resultado
+
+La ejecución de las pruebas permitió identificar y documentar 74 bugs y detectar inconsistencias entre las diferentes capas del sistema antes de su liberación.
+
+Este proyecto me permitió pasar de validar únicamente lo que ve el usuario a comprender cómo se relacionan frontend, aplicación, API, backend y base de datos dentro de un mismo flujo.
+
+También fortalecí mi capacidad para diseñar pruebas, analizar resultados, detectar inconsistencias y realizar validaciones end-to-end utilizando diferentes niveles de la arquitectura de una aplicación.
+
+Herramientas y conocimientos
+
+Functional Testing · Integration Testing · API Testing · End-to-End Testing · Test Case Design · Checklists · Data Validation · Cross-Browser Testing · Postman · REST API · HTTP · JSON · SQL · Database Testing · Bug Tracking
