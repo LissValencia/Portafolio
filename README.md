@@ -1,2 +1,6 @@
 # Portafolio
 QA Engineer certificada, con experiencia en pruebas de aplicaciones web, APIs y aplicaciones móviles. Especializado en el diseño, planificación y ejecución de pruebas, validación de requerimientos, identificación y documentación de bugs, así como en el análisis de resultados para contribuir a la calidad y estabilidad del software.
+
+Cuento con conocimientos en **pruebas funcionales, pruebas de integración, pruebas de API, pruebas de aplicaciones móviles y fundamentos de automatización de pruebas**. Tengo experiencia trabajando con herramientas como **Postman** para validación de APIs, **Jira** para gestión y seguimiento de incidencias, **Figma** para análisis de interfaces y validación de requerimientos, **GitHub** para control y gestión de proyectos, y **Cygwin** para trabajar con entornos y herramientas de línea de comandos.
+
+Mi enfoque se caracteriza por el **pensamiento analítico, atención al detalle, organización y orientación a la detección temprana de errores**, aplicando diferentes técnicas y escenarios de prueba para identificar riesgos y asegurar una experiencia de usuario confiable. Busco aportar una visión de calidad durante todo el ciclo de desarrollo, combinando pruebas manuales con conocimientos en automatización para optimizar los procesos de validación del software.
