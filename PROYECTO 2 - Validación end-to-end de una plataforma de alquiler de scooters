@@ -1,27 +1,39 @@
-Desafío
+# 🛴 Proyecto 2 — Validación End-to-End de Plataforma de Alquiler de Scooters (Urban Scooter)
 
-Urban Scooter es una plataforma de alquiler de scooters en la que diferentes componentes deben funcionar de manera coordinada: la interfaz del usuario, la aplicación del repartidor, los servicios backend y la base de datos.
+![QA Testing](https://img.shields.io/badge/QA-End--to--End%20Testing-blue)
+![API Testing](https://img.shields.io/badge/API-Testing-orange)
+![Postman](https://img.shields.io/badge/Postman-API%20Validation-FF6C37)
+![Jira](https://img.shields.io/badge/Jira-Bug%20Tracking-0052CC)
 
-El reto fue validar que el flujo completo funcionara correctamente, desde las acciones realizadas en la plataforma hasta la comunicación con los servicios backend y la persistencia de los datos, contemplando tanto escenarios positivos como negativos.
+## 📌 Desafío y Contexto
+**Urban Scooter** es una plataforma integral de alquiler de scooters donde interactúan diferentes componentes del sistema[cite: 12]. El objetivo del proyecto consistió en realizar una **validación end-to-end (E2E)** del flujo completo, asegurando la sincronización adecuada entre la aplicación del usuario, la aplicación del repartidor, los servicios backend y la base de datos[cite: 12].
 
-Proceso
+---
 
-Comencé validando el flujo de alquiler y seguimiento de pedidos desde la perspectiva del usuario. Diseñé y ejecuté una checklist de aproximadamente 112 aspectos en Chrome y Opera, complementándola con 59 validaciones de datos y 15 casos de prueba para cubrir diferentes escenarios funcionales.
+## 🔍 Cobertura del Proceso de Pruebas
 
-Durante la ejecución, identifiqué y documenté 74 bugs, utilizando evidencia y pasos de reproducción para facilitar su análisis y seguimiento.
+1. **Pruebas en la App del Usuario:** Validaciones del flujo de alquiler y seguimiento de pedidos directamente desde la perspectiva del usuario final[cite: 12].
+2. **Pruebas en la App del Repartidor:** Validación de funcionalidades clave como ingreso al sistema, creación de usuarios repartidores y asignación de pedidos[cite: 12].
+3. **Pruebas en Backend y Base de Datos:** Validación directa sobre servicios backend y endpoints de la API relacionados con la gestión y actualización de pedidos[cite: 12].
 
-Posteriormente, amplié las pruebas hacia la aplicación del repartidor, validando funcionalidades como el ingreso, creación de usuarios, conexión con el servidor y aceptación de pedidos. Utilicé Postman para comprobar la comunicación entre la aplicación y los servicios backend, revisando solicitudes, respuestas y estructuras JSON.
+---
 
-Finalmente, realicé pruebas sobre los servicios backend y la base de datos. Validé endpoints relacionados con la creación de repartidores, aceptación y cancelación de pedidos y búsquedas mediante número de seguimiento. También comprobé códigos HTTP, respuestas JSON y la consistencia de los datos entre la aplicación, la API y la base de datos.
+## ⚙️ Ejecución de Pruebas y Reporte de Errores
+* **Diseño de Escenarios:** Elaboración y ejecución de listas de comprobación (*checklists*) detalladas[cite: 12, 13].
+* **Gestión de Incidencias:** Identificación y documentación de **74 bugs**, registrando evidencias y pasos de reproducción claros para facilitar su resolución técnica[cite: 12].
 
-Resultado
+---
 
-La ejecución de las pruebas permitió identificar y documentar 74 bugs y detectar inconsistencias entre las diferentes capas del sistema antes de su liberación.
+## 📊 Métricas de Calidad y Resultados
+| Métrica | Detalle |
+| :--- | :--- |
+| **Defectos Detectados** | **74 BUGS** identificados y documentados[cite: 12] |
+| **Alcance de Pruebas** | Validaciones End-to-End (Frontend, Repartidores y Backend)[cite: 12, 13] |
+| **Impacto** | Detección de inconsistencias entre las distintas capas de la plataforma[cite: 13] |
 
-Este proyecto me permitió pasar de validar únicamente lo que ve el usuario a comprender cómo se relacionan frontend, aplicación, API, backend y base de datos dentro de un mismo flujo.
+---
 
-También fortalecí mi capacidad para diseñar pruebas, analizar resultados, detectar inconsistencias y realizar validaciones end-to-end utilizando diferentes niveles de la arquitectura de una aplicación.
-
-Herramientas y conocimientos
-
-Functional Testing · Integration Testing · API Testing · End-to-End Testing · Test Case Design · Checklists · Data Validation · Cross-Browser Testing · Postman · REST API · HTTP · JSON · SQL · Database Testing · Bug Tracking
+## 🛠️ Herramientas y Conocimientos
+* **Tipos de Pruebas:** Functional Testing · Integration Testing · API Testing · End-to-End Testing[cite: 13].
+* **Artefactos y Métodos:** Test Case Design · Checklists · Data Validation[cite: 13].
+* **Gestión de Bugs:** Jira[cite: 12].
