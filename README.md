@@ -34,4 +34,4 @@ Cuento con experiencia en **pruebas funcionales, pruebas de integración, valida
 
 📫 **Contacto & Redes**
 * **Ubicación:** Colombia
-* **Enfoque Actual:** QA Functional Testing / Mobile & Web / Python & Quality Automation
+* **Enfoque Actual:** QA Functional Testing / Mobile & Web 
