@@ -1,4 +1,4 @@
-# 📱 Proyecto 1 — Pruebas Funcionales para Aplicación Móvil (Urban.Lunch)
+# 📱 Proyecto 2 — Pruebas Funcionales para Aplicación Móvil (Urban.Lunch)
 
 ![QA Manual](https://img.shields.io/badge/QA-Manual%20Testing-blue)
 ![Jira](https://img.shields.io/badge/Jira-Bug%20Tracking-0052CC)
