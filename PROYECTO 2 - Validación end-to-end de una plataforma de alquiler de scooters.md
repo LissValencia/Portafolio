@@ -1,4 +1,4 @@
-# 🛴 Proyecto 2 — Validación End-to-End de Plataforma de Alquiler de Scooters (Urban Scooter)
+# 🛴 Proyecto 3 — Validación End-to-End de Plataforma de Alquiler de Scooters (Urban Scooter)
 
 ![QA Testing](https://img.shields.io/badge/QA-End--to--End%20Testing-blue)
 ![API Testing](https://img.shields.io/badge/API-Testing-orange)
